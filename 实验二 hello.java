@@ -33,7 +33,7 @@ public class hello{
 	
 	public static void workTwo() {
 		Scanner in=new Scanner(System.in);
-		System.out.println("ÊäÈëÎå¸ö³É¼¨£º");
+		System.out.println("è¾“å…¥äº”ä¸ªæˆç»©ï¼š");
 		double a[];
 		a=new double[5];
 		for(int i=0;i<5;i++){
@@ -41,19 +41,19 @@ public class hello{
 		}
 		for(int i=0;i<a.length;i++){
 			if(a[i]>=90&&a[i]<100){
-				System.out.println("ÓÅ");
+				System.out.println("ä¼˜");
 			}
 			if(a[i]>=80&&a[i]<90){
-				System.out.println("Á¼");
+				System.out.println("è‰¯");
 			}
 			if(a[i]>=70&&a[i]<80){
-				System.out.println("ÖĞ");
+				System.out.println("ä¸­");
 			}
 			if(a[i]>=60&&a[i]<70){
-				System.out.println("¼°¸ñ");
+				System.out.println("åŠæ ¼");
 			}
 			if(a[i]<60){
-				System.out.println("²»¼°¸ñ");
+				System.out.println("ä¸åŠæ ¼");
 			}
 		}
 	}
