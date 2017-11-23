@@ -1,0 +1,11 @@
+file:dest.txt  lastchangedate:Thu Nov 23 22:52:33 CST 2017  filesize:28
+file:directoryinfo.txt  lastchangedate:Thu Nov 23 22:54:04 CST 2017  filesize:0
+file:list.txt  lastchangedate:Wed Nov 22 13:26:14 CST 2017  filesize:1093
+file:src.txt  lastchangedate:Thu Nov 23 22:52:33 CST 2017  filesize:28
+file:Student.bin  lastchangedate:Thu Nov 23 16:55:45 CST 2017  filesize:955
+file:student.java  lastchangedate:Thu Nov 23 16:22:54 CST 2017  filesize:869
+file:studentCompare.java  lastchangedate:Wed Nov 22 13:42:25 CST 2017  filesize:267
+file:test01.java  lastchangedate:Thu Nov 16 23:49:11 CST 2017  filesize:1003
+file:test02.java  lastchangedate:Thu Nov 16 23:56:52 CST 2017  filesize:1290
+file:test03.java  lastchangedate:Wed Nov 22 13:22:56 CST 2017  filesize:1861
+file:test04.java  lastchangedate:Thu Nov 23 16:56:56 CST 2017  filesize:2666
