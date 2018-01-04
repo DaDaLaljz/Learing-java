@@ -6,7 +6,6 @@ import java.io.*;
 import java.awt.*;
 import java.net.*;
 import javax.swing.*;
-import javax.swing.border.*;
 import javax.swing.border.BevelBorder;
 
 
@@ -36,7 +35,7 @@ public class MyTcp extends JFrame{
 				writer.println(tf.getText());
 				// 将文本框中信息显示在文本域中
 				ta.setForeground(Color.red);
-				ta.append(tf.getText() + '\n');
+				ta.append("服务器:"+tf.getText() + '\n');
 				ta.setSelectionEnd(ta.getText().length());
 				tf.setText(""); // 将文本框清空
 			}
@@ -70,7 +69,7 @@ public class MyTcp extends JFrame{
 					// 获得客户
 
 					ta.setForeground(Color.blue);
-					ta.append("客户机:" +reader.readLine()+'\n');
+					ta.append("客户端:" +reader.readLine()+'\n');
 					
 				}
 			}
@@ -98,7 +97,7 @@ public class MyTcp extends JFrame{
 	}
 	
 	public static void main(String[] args) { // 主方法
-		MyTcp tcp = new MyTcp("向客户端发送信息"); // 创建本类对象
+		MyTcp tcp = new MyTcp("服务器"); // 创建本类对象
 		tcp.setSize(400, 400); // 设置窗体大小
 		tcp.setVisible(true); // 将窗体显示
 		tcp.getserver(); // 调用方法

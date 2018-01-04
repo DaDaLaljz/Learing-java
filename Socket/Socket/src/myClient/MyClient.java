@@ -37,7 +37,7 @@ public class MyClient extends JFrame { // 创建类继承JFrame类
 				writer.println(tf.getText());
 				// 将文本框中信息显示在文本域中
 				ta.setForeground(Color.red);
-				ta.append(tf.getText() + '\n');
+				ta.append("客户端:"+tf.getText() + '\n');
 				ta.setSelectionEnd(ta.getText().length());
 				tf.setText(""); // 将文本框清空
 			}
@@ -88,7 +88,7 @@ public class MyClient extends JFrame { // 创建类继承JFrame类
 
 
 	public static void main(String[] args) { // 主方法
-		MyClient clien = new MyClient("向服务器送数据"); // 创建本例对象
+		MyClient clien = new MyClient("客户端"); // 创建本例对象
 		clien.setSize(400, 400); // 设置窗体大小
 		clien.setVisible(true); // 将窗体显示
 		clien.connect(); // 调用连接方法
